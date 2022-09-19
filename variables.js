@@ -1,18 +1,19 @@
-var a = 5
+let a = 5
 console.log("a의 자료형 : " + typeof a)
-var b = 4.0 // number 
-console.log("b의 자료형 : " + typeof b)
-var c = "test" // string
+let b = 4.0 // number 
+console.log(`b의 자료형 : ` + typeof b)
+let c = "test" // string
 console.log(`c의 자료형 : ${typeof c}`)
-var d = 't' // char
-var e = false // boolean
-var f = null
-var g // undefined
-var h = [1, 2, 3] // array
-var i = {
+let d = 't' // char
+let e = false // boolean
+let f = null
+let g // undefined
+console.log(`g의 자료형 : ${typeof g}`)
+let h = [1, 2, 3] // array
+let i = {
     name: 'seon', 
     job: 'tutor'
 }
-var j = function () {
+let j = function () {
     console.log("hello javascript world");
 }
