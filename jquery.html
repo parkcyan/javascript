@@ -16,11 +16,17 @@
 <body>
     <div id="displayArea">이곳의 내용 변경</div>
     <button>표시</button>
+    <script src="lib/jquery-3.6.1.js"></script>
     <script>
-        const button = document.querySelector("button");
-        button.addEventListener("click", function(){
-            const displayArea = document.querySelector("#displayArea");
-            displayArea.innerHTML = "<img src='https://picsum.photos/200/200' border='0'/>";
+        // 기본형식
+        $(document).ready(function(){
+            
+        })
+        // 짧은형식
+        $(function(){
+            $("button").click(function(){
+                $("#displayArea").html("<img src='https://picsum.photos/200/200' border='0'/>");
+            });
         });
     </script>
 </body>

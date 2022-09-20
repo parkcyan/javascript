@@ -16,4 +16,4 @@ let yourObj = new Object ({
 })
 
 console.log(myObj.name, myObj['gender']);
-console.log(yourObj.name, yourObj['born']);
+console.log(yourObj.name, yourObj['born']); 
